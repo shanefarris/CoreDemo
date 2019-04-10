@@ -1,0 +1,41 @@
+function OnStart()
+	--print("OnStart")
+end
+
+function OnPreUpdateGame ( f1 )
+	Core.CAiManager:Instance():Update(f1)
+end
+
+function OnPostUpdateGame ( f1 )
+	--print("OnPostUpdateGame")
+end
+
+function OnLoadLevel()
+	print("************************OnLoadLevel************************")
+	gameManager = Core.CGameManager:Instance();
+	sm = gameManager:GetSceneManager();
+	gameObjManager = Core.CGameObjectManager:Instance()
+	aiManager = Core.CAiManager:Instance()
+
+
+	cam = gameManager:GetCurrCamera()
+	cam:SetMode(Core.ECM_CHASE)
+
+	player = gameObjManager:CreatePlayer(Core.EPT_SOLIDER1, "Player", nil);
+	player:SetCamera(cam);
+	player:SetPlayerPosition(0, 0, 0);
+	aiManager:AddPlayer(player);
+	aiManager:SetCharacterState(player, Core.EPS_WANDERING);
+
+	for i = 1, 20 do
+		Robot = gameObjManager:CreatePlayer(Core.EPT_TEST2, "Robot" .. i, nil);
+		Robot:SetPlayerPosition(5 * i, 0, 3 * 1);
+		aiManager:AddPlayer(Robot);
+		aiManager:SetCharacterState(Robot, Core.EPS_WANDERING);
+	end
+
+end
+
+function OnUnLoadLevel()
+	print("OnUnLoadLevel")
+end

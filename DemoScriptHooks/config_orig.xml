@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<config>
+
+<app name="Core" version="0.1" />
+
+<audio switch="on" soundvolume="1.0" musicvolume="1.0" />
+<video driver="ogl" width="800" height="600" depth="16" fullscreen="false" />
+<network servername="client" serverip="127.0.0.1" serverport="60005" clientport="60006" />
+
+<player nickname="Player" modeltype="soldier" />
+
+<keybindings>
+	<key action="moveleft" key1="0x25" key2="0x41" />
+	<key action="moveright" key1="0x27" key2="0x44" />
+	<key action="moveforward" key1="0x26" key2="0x57" />
+	<key action="movebackward" key1="0x28" key2="0x53" />
+
+	<key action="jump" key1="0x20" key2="0x0" />
+	<key action="crouch" key1="0x11" key2="0x0" />
+
+	<key action="fire1" key1="0x1" key2="0x0" />
+	<key action="fire2" key1="0x2" key2="0x0" />
+</keybindings>
+
+<weapons>
+	<weapon name="beretta92F" disp_name="Beretta 92F" semi="true" burst="false" auto="false" ammo="9x19mm_15" rate_of_fire="120" mesh="beretta.mesh" pitch="90" roll="0"/>
+	<weapon name="m4" disp_name="M4 Assault Rifle" semi="true" burst="true" auto="true" ammo="5.56x45mm_30" mesh="m4.mesh" pitch="90" roll="0"/>
+</weapons>
+
+<ammunition>
+	<ammo name="5.56x45mm_30" disp_name="5.56x45mm 30 round magazine" projectiles="5.56x45mm_JHP,5.56x45mm_FMJ" capacity="30" mesh="m4_clip.mesh" pitch="0" roll="90">
+	<ammo name="9x19mm_15" disp_name="9x19mm 15 round magazine" projectiles="9x19mm_JHP,9x19mm_FMJ" capacity="15" mesh="m4_clip.mesh" pitch="0" roll="90">
+</ammunition>
+
+
+<projectiles>
+	<projectile name="9x19mm_JHP" disp_name="9x19mm Jacketed Hollow Point" base_damage="20" penetrating="false" muzzle_velocity="350" mesh="sphere.mesh" pitch="90" roll="0"/>
+	<projectile name="9x19mm_FMJ" disp_name="9x19mm Full Metal Jacket" base_damage="10" penetrating="true" muzzle_velocity="370" mesh="sphere.mesh" pitch="90" roll="0"/>
+	<projectile name="5.56x45mm_JHP" disp_name="5.56x45mm Jacket Hollow Point" base_damage="40" penetrating="false" muzzle_velocity="1700" mesh="sphere.mesh" pitch="90" roll="0"/>
+	<projectile name="5.56x45mm_FMJ" disp_name="5.56x45mm Full Metal Jacket" base_damage="30" penetrating="true" muzzle_velocity="1800" mesh="sphere.mesh" pitch="90" roll="0"/>
+</projectiles>
+
+<archive>
+	<FolderFileArchive dir="Demo_Media" group="General" />
+	<FolderFileArchive dir="Demo_Media/PCZAppMeia" group="General" />
+	<FolderFileArchive dir="Demo_Media/fonts" group="General" />
+	<FolderFileArchive dir="Demo_Media/materials/programs" group="General" />
+	<FolderFileArchive dir="Demo_Media/materials/textures" group="General" />
+	<FolderFileArchive dir="Demo_Media/materials/scripts" group="General" />
+	<FolderFileArchive dir="Demo_Media/models" group="General" />
+	<FolderFileArchive dir="Demo_Media/gui" group="General" />
+		
+	<FolderFileArchive dir="Demo_Media/CEGUI/schemes/" group="schemes" />
+	<FolderFileArchive dir="Demo_Media/CEGUI/imagesets/" group="imagesets" />
+	<FolderFileArchive dir="Demo_Media/CEGUI/fonts/" group="fonts" />
+	<FolderFileArchive dir="Demo_Media/CEGUI/layouts/" group="layouts" />
+	<FolderFileArchive dir="Demo_Media/CEGUI/looknfeel/" group="looknfeels" />
+	<FolderFileArchive dir="Demo_Media/CEGUI/lua_scripts/" group="lua_scripts" />
+
+	<FolderFileArchive dir="Media" group="General" />
+	<FolderFileArchive dir="Media/PCZAppMeia" group="General" />
+	<FolderFileArchive dir="Media/fonts" group="General" />
+	<FolderFileArchive dir="Media/materials/programs" group="General"/>
+	<FolderFileArchive dir="Media/materials/textures" group="General"/>
+	<FolderFileArchive dir="Media/materials/scripts" group="General"/>
+	<FolderFileArchive dir="Media/models" group="General"/>
+	<FolderFileArchive dir="Media/overlays" group="General"/>
+	<FolderFileArchive dir="Media/audio" group="General"/>
+</archive>
+
+<zip>
+	<ZipFileArchive zip="Demo_Media/packs/cubemap.zip" />
+	<ZipFileArchive zip="Demo_Media/packs/cubemapsJS.zip" />
+	<ZipFileArchive zip="Demo_Media/packs/dragon.zip" />
+	<ZipFileArchive zip="Demo_Media/packs/fresneldemo.zip" />
+	<ZipFileArchive zip="Demo_Media/packs/ogretestmap.zip" />
+	<ZipFileArchive zip="Demo_Media/packs/cubemap.zip" />
+	<ZipFileArchive zip="Demo_Media/packs/skybox.zip" />
+
+	<ZipFileArchive zip="Media/packs/cubemap.zip" />
+	<ZipFileArchive zip="Media/packs/cubemapsJS.zip" />
+	<ZipFileArchive zip="Media/packs/dragon.zip" />
+	<ZipFileArchive zip="Media/packs/fresneldemo.zip" />
+	<ZipFileArchive zip="Media/packs/ogretestmap.zip" />
+	<ZipFileArchive zip="Media/packs/cubemap.zip" />
+	<ZipFileArchive zip="Media/packs/skybox.zip" />
+</zip>
+
+</config>
+
+  

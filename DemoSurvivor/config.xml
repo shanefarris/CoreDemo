@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+
+<!-- Application level options -->
+<app name="Core" version="0.1" />
+
+<audio switch="on" soundvolume="1.0" musicvolume="1.0" />
+<video driver="ogl" width="800" height="600" depth="32" fullscreen="false" />
+<network servername="client" serverip="127.0.0.1" serverport="60005" clientport="60006" />
+<player nickname="Player" modeltype="soldier" />
+<serializer default="db" filename="level" />
+<script language="lua" path="../../Media" />
+
+<keybindings>
+	<key action="moveleft" key1="0x25" key2="0x41" />
+	<key action="moveright" key1="0x27" key2="0x44" />
+	<key action="moveforward" key1="0x26" key2="0x57" />
+	<key action="movebackward" key1="0x28" key2="0x53" />
+
+	<key action="jump" key1="0x20" key2="0x0" />
+	<key action="crouch" key1="0x11" key2="0x0" />
+
+	<key action="fire1" key1="0x1" key2="0x0" />
+	<key action="fire2" key1="0x2" key2="0x0" />
+</keybindings>
+
+<archive>
+	<FolderFileArchive dir="../../media/Common" group="General" />
+	<FolderFileArchive dir="../../media/Models" group="General" />
+	<FolderFileArchive dir="../../media/Sounds/Mono" group="Sound" />
+	<FolderFileArchive dir="../../media/Compositors" group="General" />
+</archive>
+
+<zip>
+	<ZipFileArchive zip="../../media/Common/fonts.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/music.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/theme.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/sky.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/soldier.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/GenMarine.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/Hydrax.zip" group="Hydrax" />
+	<ZipFileArchive zip="../../media/Common/Hud.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/SkyBoxes.zip" group="General" />
+	<ZipFileArchive zip="../../media/Common/GUI.zip" group="General" />
+</zip>
+
+<plugins>
+	<path dir="../../Bin/Release/Plugins" />
+</plugins>
+
+</config>

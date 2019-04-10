@@ -1,0 +1,15 @@
+material Soldier/TargetSights
+{
+    technique
+    {
+        pass
+        {
+          lighting off
+          scene_blend alpha_blend
+            texture_unit
+            {
+               texture target.png
+            }
+        }
+    }
+}

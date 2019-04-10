@@ -1,0 +1,45 @@
+<SCENE version="1.0">
+
+  <SceneManager ambient="0.360041 0.360041 0.360041 1" fogcolour="1 1 1 1" fogdensity="0.001" fogend="1" fogmode="None" fogstart="0" 
+	name="MySceneManager" scenemanagertype="OctreeSceneManager" skyboxactive="false" skyboxdistance="0" skyboxmaterial="" />
+
+  <Viewport parentnode="MySceneManager" colour="0 0 0" compositor0enabled="false" compositor0name="_Hydrax_Underwater_Compositor_Name" name="Viewport" />
+
+  <Light parentnode="MySceneManager" attenuation="100000 1 0.6 0" diffuse="0.831 0.275 0.098" direction="0 0 1" lighttype="LT_POINT" name="Light1" 
+	position="99.426 16.6694 176.904" power="1" range="30 40 1" shadows="true" specular="0 0 0" />
+
+  <Camera parentnode="MySceneManager" lookat="0 0 -300" clipdistance="0.1 59994" fov="0.785398" name="Camera1" orientation="-0 0 1 -0" 
+	position="72.819 22.981 179.298" />
+  <Camera parentnode="MySceneManager" lookat="0 0 -300" clipdistance="0.1 59994" fov="0.785398" name="Camera2" orientation="-0 0 1 -0" 
+	position="72.819 22.981 179.298" default="true" />
+
+  <Node parentnode="MySceneManager" name="Node1" orientation="0 0 -50 0" position="125.872 11.456 238.764" scale="0.8 0.8 0.8" />
+  <Node parentnode="MySceneManager" name="Node2" orientation="50 0 100 0" position="200 25 -100" scale="0.8 0.8 0.8" />
+  <Node parentnode="MySceneManager" name="Node3" orientation="100 0 0 0" position="400 50 -200" scale="0.8 0.8 0.8" />
+  <Node parentnode="MySceneManager" name="Node4" orientation="0 100 0 0" position="0 500 500" scale="0.8 0.8 0.8" />
+  <Node parentnode="MySceneManager" name="Node5" orientation="0 0 100 0" position="-100 300 0" scale="0.8 0.8 0.8" />
+  
+  <Entity parentnode="Node1" meshfile="Asteroid_1.mesh" name="Entity1" shadows="true" />
+  <Entity parentnode="Node2" meshfile="Asteroid_1.mesh" name="Entity2" shadows="false" />
+  <Entity parentnode="Node3" meshfile="Asteroid_1.mesh" name="Entity3" shadows="false" />
+  <Entity parentnode="Node4" meshfile="Asteroid_1.mesh" name="Entity4" shadows="false" />
+  <Entity parentnode="Node5" meshfile="Asteroid_1.mesh" name="Entity5" shadows="false" /> 
+  
+  <PhysicsNode node="Node1" entity="Entity1" shape="cube" restitution="1" friction="1" mass="1" />
+  <PhysicsNode node="Node2" entity="Entity2" shape="cube" restitution="1" friction="1" mass="1" />
+  <PhysicsNode node="Node3" entity="Entity3" shape="cube" restitution="1" friction="1" mass="1" />
+  <PhysicsNode node="Node4" entity="Entity4" shape="cube" restitution="1" friction="1" mass="1" />
+  <PhysicsNode node="Node5" entity="Entity5" shape="cube" restitution="1" friction="1" mass="1" />
+
+  <Caelum parentnode="MySceneManager" name="CaelumSky" />
+
+  <ETL parentnode="MySceneManager" cellspan="4" colourmapsize="256" light="Directional01" lightmapsize="256" mapscale="2 100 2" 
+	mapsize="257" name="ETL_Terrain" splatmapcount="1" splatmapsize="256" textures="sand1.png;jungle_0.jpg;desert_4.jpg;" />
+
+  <PagedGrass parentnode="MySceneManager" name="PagedGrass" />
+
+  <Hydrax parentnode="MySceneManager" configfile="Hydrax.hdx" name="HydraxWater" />
+  
+  <BgSound name="background" filename="TitleThemeDemo_14.ogg" gain="0.5" loop="true" stream="true" /> 
+
+</SCENE>

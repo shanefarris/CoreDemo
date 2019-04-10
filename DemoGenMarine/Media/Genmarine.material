@@ -1,0 +1,48 @@
+material 
+{
+	technique
+	{
+		pass
+		{
+		}
+	}
+}
+
+material Genmarine
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 128
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture MarineDiffmap.tga
+				filtering point point point
+			}
+		}
+	}
+}
+material Assaultrifle
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 128
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture RifleDiff.tga
+				filtering point point point
+			}
+		}
+	}
+}

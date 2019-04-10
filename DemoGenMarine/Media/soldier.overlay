@@ -1,0 +1,21 @@
+Soldier/Target
+{
+	zorder 500
+	container Panel(Soldier/Sights)
+	{
+		left 0.485937
+		top 0.475
+		width 0.0375
+		height 0.05
+		material Soldier/TargetSights
+		metrics_mode relative
+		horz_align left
+		vert_align top
+		visible true
+		uv_coords  0 0 1 1
+		tiling 0 1 1
+		transparent false
+	}
+}
+
+

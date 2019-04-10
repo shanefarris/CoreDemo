@@ -1,0 +1,129 @@
+<SceneManager ambient="0.671137 0.671137 0.671137 3" fogcolor="0.5 0.5 0.5 1" fogdensity="0" fogend="1000" 
+fogstart="0" name="MySceneManager" skyboxactive="true" skyboxdistance="5000" skyboxmaterial="Sky/ClubTropicana" 
+scenemanagertype="OctreeSceneManager" fogmode="None"></SceneManager>
+
+<Viewport color="0 0 0 1" compositor0enabled="true" compositor0name="" name="Viewport1" parent=""></Viewport>
+<Camera name="Camera1" clipdistance="0.1 59994" default="true" fov="0.785398" lookat="0 0 0" orientation="0 0 1 0" 
+	parent="" position="0 0 0" type="spring"></Camera>
+
+<Node name="veg2#1Copy#2" orientation="1 0 0 0" parent="" position="-9.09716 126.029 1546.63" scale="10 10 10" attachto="veg2#1Copy#2"></Node>
+<Node name="veg2_lod2#0" orientation="1 0 0 0" parent="" position="-881.088 130.371 1406.86" scale="20 20 20" attachto="veg2_lod2#0"></Node>
+<Node name="Target2#0" orientation="0.707107 0.707107 0 0" parent="" position="461.278 136.859 1101.16" scale="10 10 10" attachto="Target2#0"></Node>
+<Node name="Wall#0Copy#1" orientation="0.69779 -0.716302 0 0" parent="" position="444.825 136.801 971.856" scale="10 10 10" attachto="Wall#0Copy#1"></Node>
+<Node name="tree2#0Copy#1" orientation="0.700909 0 -0.713251 0" parent="" position="-600.754 130.025 1269.92" scale="5 5 5" attachto="tree2#0Copy#1"></Node>
+<Node name="veg4_lod1#0Copy#1" orientation="1 0 0 0" parent="" position="-812.15 127.752 1386.02" scale="20 20 20" attachto="veg4_lod1#0Copy#1"></Node>
+<Node name="tree3#0Copy#1" orientation="0.953717 0 -0.300706 0" parent="" position="-561.862 129.101 1153.59" scale="5 5 5" attachto="tree3#0Copy#1"></Node>
+<Node name="Target2#0Copy#1" orientation="0.707107 0.707107 0 0" parent="" position="450.382 136.859 1101.16" scale="10 10 10" attachto="Target2#0Copy#1"></Node>
+<Node name="stone1#0" orientation="1 0 0 0" parent="" position="-905.552 129.034 1317.8" scale="20 20 20" attachto="stone1#0"></Node>
+<Node name="tree3#0Copy#4" orientation="0.952396 0 -0.304864 0" parent="" position="-76.9374 129.101 1225.64" scale="5 5 5" attachto="tree3#0Copy#4"></Node>
+<Node name="stone2#0" orientation="1 0 0 0" parent="" position="-949.625 128.275 1408.91" scale="20 20 20" attachto="stone2#0"></Node>
+<Node name="veg10#0" orientation="1 0 0 0" parent="" position="-4444.55 22.6043 -1555.31" scale="20 20 20" attachto="veg10#0"></Node>
+<Node name="veg2#1Copy#0" orientation="1 0 0 0" parent="" position="-28.0732 126.029 1613.88" scale="10 10 10" attachto="veg2#1Copy#0"></Node>
+<Node name="house_01_rich_a#0" orientation="0.707107 0.707107 0 0" parent="" position="-682.59 127.965 3243.22" scale="0.3 0.3 0.3" attachto="house_01_rich_a#0"></Node>
+<Node name="tree2#0Copy#2" orientation="0.951056 0 0.309017 0" parent="" position="-258.544 130.025 1129.24" scale="5 5 5" attachto="tree2#0Copy#2"></Node>
+<Node name="veg8_lod2#0" orientation="1 0 0 0" parent="" position="-4417.18 22.0261 -1470.91" scale="20 20 20" attachto="veg8_lod2#0"></Node>
+<Node name="veg8_lod2#0Copy#0" orientation="1 0 0 0" parent="" position="-4447.73 22.0261 -1517.26" scale="20 20 20" attachto="veg8_lod2#0Copy#0"></Node>
+<Node name="HQMilitiaTentShape#0Copy#1" orientation="1 0 0 0" parent="" position="705.529 124.894 2293.05" scale="0.3 0.3 0.3" attachto="HQMilitiaTentShape#0Copy#1"></Node>
+<Node name="HQMilitiaTentShape#0" orientation="1 0 0 0" parent="" position="631.205 124.931 2293.07" scale="0.3 0.3 0.3" attachto="HQMilitiaTentShape#0"></Node>
+<Node name="stone6#0Copy#0" orientation="1 0 0 0" parent="" position="-192.399 129.907 1470.23" scale="10 10 10" attachto="stone6#0Copy#0"></Node>
+<Node name="veg2#1" orientation="1 0 0 0" parent="" position="-18.981 126.029 1606.29" scale="10 10 10" attachto="veg2#1"></Node>
+<Node name="OilPump#0" orientation="1 0 0 0" parent="" position="606.801 116.746 3084.4" scale="7 7 7" attachto="OilPump#0"></Node>
+<Node name="Wall#0Copy#0" orientation="0.69779 -0.716302 0 0" parent="" position="547.196 135.76 973.921" scale="10 10 10" attachto="Wall#0Copy#0"></Node>
+<Node name="flower1#0Copy#1" orientation="0.707107 0 0.707107 0" parent="" position="-104.866 124.895 1423.66" scale="20 20 20" attachto="flower1#0Copy#1"></Node>
+<Node name="veg4_lod1#0" orientation="1 0 0 0" parent="" position="-831.59 127.752 1377.03" scale="20 20 20" attachto="veg4_lod1#0"></Node>
+<Node name="stone6#0" orientation="1 0 0 0" parent="" position="-88.86 129.907 1611.87" scale="10 10 10" attachto="stone6#0"></Node>
+<Node name="tree2#0Copy#0" orientation="1 0 0 0" parent="" position="-855.508 130.025 1057.98" scale="5 5 5" attachto="tree2#0Copy#0"></Node>
+<Node name="veg8_lod2#0Copy#2" orientation="1 0 0 0" parent="" position="-4460.21 22.0261 -1531.84" scale="20 20 20" attachto="veg8_lod2#0Copy#2"></Node>
+<Node name="stone6_lod1#0" orientation="0.915311 0 -0.402747 0" parent="" position="-218.486 127.315 1583.12" scale="5 5 5" attachto="stone6_lod1#0"></Node>
+<Node name="tree3#0Copy#2" orientation="0.938191 0 0.346117 0" parent="" position="-372.242 129.101 1225.64" scale="5 5 5" attachto="tree3#0Copy#2"></Node>
+<Node name="Target2#0Copy#2" orientation="0.707107 0.707107 0 0" parent="" position="440.831 136.859 1101.16" scale="10 10 10" attachto="Target2#0Copy#2"></Node>
+<Node name="veg2#1Copy#1" orientation="1 0 0 0" parent="" position="-23.973 126.029 1592.41" scale="10 10 10" attachto="veg2#1Copy#1"></Node>
+<Node name="flower1#0" orientation="1 0 0 0" parent="" position="-76.8136 125.166 1423.66" scale="20 20 20" attachto="flower1#0"></Node>
+<Node name="HQMilitiaTentShape#0Copy#0" orientation="1 0 0 0" parent="" position="567.105 124.933 2293.07" scale="0.3 0.3 0.3" attachto="HQMilitiaTentShape#0Copy#0"></Node>
+<Node name="veg4_lod1#0Copy#0" orientation="1 0 0 0" parent="" position="-804.343 127.752 1358.9" scale="20 20 20" attachto="veg4_lod1#0Copy#0"></Node>
+<Node name="stone6#0Copy#1" orientation="1 0 0 0" parent="" position="-509.654 129.907 1472.66" scale="10 10 10" attachto="stone6#0Copy#1"></Node>
+<Node name="tree2#0" orientation="1 0 0 0" parent="" position="-855.508 130.025 1269.92" scale="5 5 5" attachto="tree2#0"></Node>
+<Node name="tree3#0Copy#0" orientation="1 0 0 0" parent="" position="-697.559 129.101 1167.83" scale="5 5 5" attachto="tree3#0Copy#0"></Node>
+<Node name="OilPump#0Copy#0" orientation="1 0 0 0" parent="" position="606.801 116.746 3135.19" scale="7 7 7" attachto="OilPump#0Copy#0"></Node>
+<Node name="Target2#0Copy#0" orientation="0.707107 0.707107 0 0" parent="" position="470.39 136.859 1101.16" scale="10 10 10" attachto="Target2#0Copy#0"></Node>
+<Node name="veg2#0" orientation="1 0 0 0" parent="" position="-900.685 130.332 1357.67" scale="20 20 20" attachto="veg2#0"></Node>
+<Node name="ShootingPlace#0" orientation="0.707107 -0.707107 0 0" parent="" position="452.003 135.28 1456.39" scale="10 10 10" attachto="ShootingPlace#0"></Node>
+<Node name="flower1#0Copy#0" orientation="1 0 0 0" parent="" position="-76.8136 124.895 1473.36" scale="20 20 20" attachto="flower1#0Copy#0"></Node>
+<Node name="tree2#0Copy#3" orientation="0.608761 0 0.793353 0" parent="" position="-107.616 130.025 1347.8" scale="5 5 5" attachto="tree2#0Copy#3"></Node>
+<Node name="tree3#0" orientation="0.988362 0 0.152123 0" parent="" position="-773.147 129.101 1225.64" scale="5 5 5" attachto="tree3#0"></Node>
+<Node name="veg8_lod2#0Copy#1" orientation="1 0 0 0" parent="" position="-4487.8 18.4867 -1495.04" scale="20 20 20" attachto="veg8_lod2#0Copy#1"></Node>
+<Node name="Wall#0" orientation="0.69779 -0.716302 0 0" parent="" position="345.609 137.407 971.84" scale="10 10 10" attachto="Wall#0"></Node>
+<Node name="tree3#0Copy#3" orientation="1 0 0 0" parent="" position="-324.464 129.101 987.706" scale="5 5 5" attachto="tree3#0Copy#3"></Node>
+<Entity name="veg2#1Copy#2" meshfile="veg2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg2_lod2#0" meshfile="veg2_lod2.mesh" parent="" shadows="false"></Entity>
+<Entity name="Target2#0" meshfile="Target2.mesh" parent="" shadows="false"></Entity>
+<Entity name="Wall#0Copy#1" meshfile="Wall.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree2#0Copy#1" meshfile="tree2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg4_lod1#0Copy#1" meshfile="veg4_lod1.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree3#0Copy#1" meshfile="tree3.mesh" parent="" shadows="false"></Entity>
+<Entity name="Target2#0Copy#1" meshfile="Target2.mesh" parent="" shadows="false"></Entity>
+<Entity name="stone1#0" meshfile="stone1.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree3#0Copy#4" meshfile="tree3.mesh" parent="" shadows="false"></Entity>
+<Entity name="stone2#0" meshfile="stone2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg10#0" meshfile="veg10.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg2#1Copy#0" meshfile="veg2.mesh" parent="" shadows="false"></Entity>
+<Entity name="house_01_rich_a#0" meshfile="house_01_rich_a.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree2#0Copy#2" meshfile="tree2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg8_lod2#0" meshfile="veg8_lod2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg8_lod2#0Copy#0" meshfile="veg8_lod2.mesh" parent="" shadows="false"></Entity>
+<Entity name="HQMilitiaTentShape#0Copy#1" meshfile="HQMilitiaTentShape.mesh" parent="" shadows="false"></Entity>
+<Entity name="HQMilitiaTentShape#0" meshfile="HQMilitiaTentShape.mesh" parent="" shadows="false"></Entity>
+<Entity name="stone6#0Copy#0" meshfile="stone6.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg2#1" meshfile="veg2.mesh" parent="" shadows="false"></Entity>
+<Entity name="OilPump#0" meshfile="OilPump.mesh" parent="" shadows="false"></Entity>
+<Entity name="Wall#0Copy#0" meshfile="Wall.mesh" parent="" shadows="false"></Entity>
+<Entity name="flower1#0Copy#1" meshfile="flower1.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg4_lod1#0" meshfile="veg4_lod1.mesh" parent="" shadows="false"></Entity>
+<Entity name="stone6#0" meshfile="stone6.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree2#0Copy#0" meshfile="tree2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg8_lod2#0Copy#2" meshfile="veg8_lod2.mesh" parent="" shadows="false"></Entity>
+<Entity name="stone6_lod1#0" meshfile="stone6_lod1.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree3#0Copy#2" meshfile="tree3.mesh" parent="" shadows="false"></Entity>
+<Entity name="Target2#0Copy#2" meshfile="Target2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg2#1Copy#1" meshfile="veg2.mesh" parent="" shadows="false"></Entity>
+<Entity name="flower1#0" meshfile="flower1.mesh" parent="" shadows="false"></Entity>
+<Entity name="HQMilitiaTentShape#0Copy#0" meshfile="HQMilitiaTentShape.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg4_lod1#0Copy#0" meshfile="veg4_lod1.mesh" parent="" shadows="false"></Entity>
+<Entity name="stone6#0Copy#1" meshfile="stone6.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree2#0" meshfile="tree2.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree3#0Copy#0" meshfile="tree3.mesh" parent="" shadows="false"></Entity>
+<Entity name="OilPump#0Copy#0" meshfile="OilPump.mesh" parent="" shadows="false"></Entity>
+<Entity name="Target2#0Copy#0" meshfile="Target2.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg2#0" meshfile="veg2.mesh" parent="" shadows="false"></Entity>
+<Entity name="ShootingPlace#0" meshfile="ShootingPlace.mesh" parent="" shadows="false"></Entity>
+<Entity name="flower1#0Copy#0" meshfile="flower1.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree2#0Copy#3" meshfile="tree2.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree3#0" meshfile="tree3.mesh" parent="" shadows="false"></Entity>
+<Entity name="veg8_lod2#0Copy#1" meshfile="veg8_lod2.mesh" parent="" shadows="false"></Entity>
+<Entity name="Wall#0" meshfile="Wall.mesh" parent="" shadows="false"></Entity>
+<Entity name="tree3#0Copy#3" meshfile="tree3.mesh" parent="" shadows="false"></Entity>
+<PagedTerrain name="Terrain" colormaptexturesize="128" detaildistance="240" iscolormap="false" lightmaptexturesize="1024" mapsize="129" maxbatchsize="65" maxpixelerror="3" minbatchsize="33" pagedesitymapsize="1024" pagesize="40" pagex="3452816845" pagey="3452816845" terrainfile="Page" worldsize="4000"></PagedTerrain>
+
+
+<Caelum name="sky" timeday="1" timehour="12" timeminute="0" timemonth="1" timesec="0" timespeed="0" timeyear="2000" isclouds="true" layerofclouds="3452816845" 
+fogdenmultiplier="1000" ismanagefog="false" layer="0" issinglelightsource="false" issingleshadowsource="false" ismanageambientlight="true" minambientlight="0.1 0.1 0.3 1" 
+moonambientmultipler="0.2 0.2 0.2 1" moonattmultipler="1" moonattdistance="100000" moonattlinearmultipler="0" moonquadmultipler="0" ismoonautodisable="true" 
+ismooncastshadow="true" moondiffusemultipler="1 1 0.9 1" ismoonenabled="true" moonspecularmultipler="1 1 1 1" observerlatitude="45" observerlongitude="0" 
+isstarsenabled="true" starsmag0pixelsize="16" starsmagscale="2.51189" starsmaxpixelsize="6" starsminpixelsize="4" sunambientmultipler=".5 .5 .5 1" sunattmultipler="1" 
+sundistance="100000" sunattlinearmultipler="0" sunquadmultipler="0" issunautodisable="true" issuncastshadow="true" suncolor="0 0 0" sundiffusemultipler="0 0 0 1" 
+issunenabled="true" sunlightcolor="0 0 0" sunposition="-43.3914 1222.92 -3032.23" sunspecularmultipler="0 0 0 1"></Caelum>
+
+
+<Hydrax name="hydrax" causticsend="0.95" causticspower="9" causticsscale="16" configfile="Hydrax.hdx" depthlimit="9.98" foammaxdistance="7.5e+007" 
+foamscale="0.0075" foamstart="0" foamtransparency="1" fullreflectiondistance="1e+011" globaltransparency="0" godraysexposure="0.76 0.76 0.76" godraysintensity="0.015" 
+godraysintersections="false" godraysnumrays="100" godrayssize="0.03" godraysspeed="5" iscaelumitegrated="false" iscomponentscaustics="true" iscomponentsdepth="true" 
+iscomponentsfoam="true" iscomponentsgodrays="true" iscomponentsreflections="true" iscomponentssmooth="true" iscomponentssun="true" iscomponentsunderwater="true" 
+ispgmodulechoppywaves="true" ispgmoduleforcerecalculategeometry="false" ispgmodulesmooth="false" layers="0" modulename="ProjectedGridVertex" noisemodulename="Perlin" 
+normaldistortion="0.075" perlinanimspeed="1.2" perlinfalloff="0.49" perlingpulod="0.5 50 150000" perlingpustrength="2" perlinoctaves="8" perlinscale="0.185" 
+perlintimemulti="1.27" pgmodulechoppystrength="1" pgmodulecomplexity="100" pgmoduleelevation="5" pgmodulestrength="3" planeserror="0" position="-500 10 -500" 
+rttqualitydepth="0" rttqualitydepthaip="0" rttqualitydepthreflection="0" rttqualitygpunormalmap="0" rttqualityreflection="0" rttqualityrefraction="0" 
+shadermode="3452816845" smoothpower="9.98" sunarea="746.089" suncolour="1 1 1 1" sunposition="2997.92 7460.89 -16863.8" sunstrength="1.75" techniqueadd="" 
+techniqueremove="" updatescript="" watercolour="0.139765 0.359464 0.425373 1"></Hydrax>
+
+<SpawnPoint team="2" position="601.736 129.299 1572.92"></SpawnPoint>
+<PlayerSpawn player="" position="416.04 132.238 2295.91"></PlayerSpawn>

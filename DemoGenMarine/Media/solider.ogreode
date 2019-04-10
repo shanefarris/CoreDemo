@@ -1,0 +1,121 @@
+<ogreode>
+    <ragdoll name="solider" meshName="Soldier.mesh">
+
+        <!-- Set up the default settings -->
+        <defaults>
+            <settings geometry="capsule"  joint="ball" collapse="none" mass="50" radius="0.25">
+                <damping angular="0.1" linear="0.1" />
+                <axis number="1" x="1" y="0" z="0" />
+                <axis number="2" x="0" y="1" z="0" />
+            </settings>
+        </defaults>
+
+  	    <!-- Set up some specific settings, if no value's provided then the value that was last set for that parameter -->
+      	<bone name="Base HumanLCollarbone">
+            <settings geometry="box" joint="fixed" />
+        </bone>
+		<bone name="Base HumanRCollarbone">
+            <settings geometry="box" joint="fixed" />
+        </bone>
+		
+		<bone name="Base HumanRibcage">
+            <settings geometry="box" joint="fixed" />
+        </bone>
+		
+
+        <bone name="Base HumanNeck2">
+            <settings joint="universal">
+                <axis number="1" x="0" y="1" z="0">
+                    <stop low="-1.57" high="1.57" />
+                </axis>
+                <axis number="2" x="1" y="0" z="0">
+                    <stop low="-1.0" high="0.8" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanLFoot">
+            <settings joint="hinge">
+                <axis number="1" x="2" y="0" z="0">
+                    <stop low="-1.57" high="0.8" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanRFoot" />
+
+        <bone name="Base HumanLForearm">
+            <settings geometry="capsule">
+                <axis number="1">
+                    <stop low="0.0" high="2.0" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanRForearm" />
+
+        <bone name="HumanLCalf">
+            <settings>
+                <axis number="1">
+                    <stop low="-1.57" high="0.0" />
+                </axis>
+            </settings>
+        </bone>
+		
+		<bone name="HumanRCalf">
+            <settings>
+                <axis number="1">
+                    <stop low="-1.57" high="0.0" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanRThigh">
+            <settings joint="universal">
+                <axis number="1" x="1" y="0" z="0">
+                    <stop low="-0.8" high="0.8" />
+                </axis>
+                <axis number="2" x="0" y="0" z="1">
+                    <stop low="0.0" high="0.8" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanLThigh">
+            <settings joint="universal" geometry="box">
+                <axis number="1" x="1" y="0" z="0">
+                    <stop low="-0.8" high="0.8" />
+                </axis>
+                <axis number="2" x="0" y="0" z="1">
+                    <stop low="0.0" high="0.8" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanRUpperarm">
+            <settings>
+                <axis number="1">
+                    <stop low="-1.57" high="3.1416" />
+                </axis>
+                <axis number="2" z="1">
+                    <stop low="0" high="1.57" />
+                </axis>
+            </settings>
+        </bone>
+
+        <bone name="Base HumanLUpperarm">
+            <settings>
+                <axis number="2" z="-1" />
+            </settings>
+        </bone>
+
+        <!-- Set the root bone so it's collapsed up to where it joins the next
+  		     body, to stop a big thing dangling down between his legs (Ooer!)
+  		     Collapse is only (currently) supported on capsule bones -->
+        <bone name="Base HumanPelvis">
+            <settings geometry="box">
+        </bone>
+
+    </ragdoll>
+</ogreode>
+

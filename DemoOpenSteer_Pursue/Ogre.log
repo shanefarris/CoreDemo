@@ -1,0 +1,245 @@
+01:31:19: Creating resource group General
+01:31:19: Creating resource group Internal
+01:31:19: Creating resource group Autodetect
+01:31:19: SceneManagerFactory for type 'DefaultSceneManager' registered.
+01:31:19: Registering ResourceManager for type Material
+01:31:19: Registering ResourceManager for type Mesh
+01:31:19: Registering ResourceManager for type Skeleton
+01:31:19: MovableObjectFactory for type 'ParticleSystem' registered.
+01:31:19: OverlayElementFactory for type Panel registered.
+01:31:19: OverlayElementFactory for type BorderPanel registered.
+01:31:19: OverlayElementFactory for type TextArea registered.
+01:31:19: Registering ResourceManager for type Font
+01:31:19: ArchiveFactory for archive type FileSystem registered.
+01:31:19: ArchiveFactory for archive type Zip registered.
+01:31:19: FreeImage version: 3.10.0
+01:31:19: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+01:31:19: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+01:31:19: DDS codec registering
+01:31:19: Registering ResourceManager for type HighLevelGpuProgram
+01:31:19: Registering ResourceManager for type Compositor
+01:31:19: MovableObjectFactory for type 'Entity' registered.
+01:31:19: MovableObjectFactory for type 'Light' registered.
+01:31:19: MovableObjectFactory for type 'BillboardSet' registered.
+01:31:19: MovableObjectFactory for type 'ManualObject' registered.
+01:31:19: MovableObjectFactory for type 'BillboardChain' registered.
+01:31:19: MovableObjectFactory for type 'RibbonTrail' registered.
+01:31:19: *-*-* OGRE Initialising
+01:31:19: *-*-* Version 1.8.0unstable (Byatis)
+01:31:19: Added resource location '../../media/Common' of type 'FileSystem' to resource group 'General'
+01:31:19: Added resource location '../../media/Common/fonts.zip' of type 'Zip' to resource group 'General'
+01:31:19: Added resource location '../../media/Common/music.zip' of type 'Zip' to resource group 'General'
+01:31:19: Added resource location '../../media/Common/theme.zip' of type 'Zip' to resource group 'General'
+01:31:19: Loading library RenderSystem_Direct3D9_d
+01:31:19: Installing plugin: D3D9 RenderSystem
+01:31:19: D3D9 : Direct3D9 Rendering Subsystem created.
+01:31:19: D3D9: Driver Detection Starts
+01:31:19: D3D9: Driver Detection Ends
+01:31:19: Plugin successfully installed
+01:31:19: Loading library Plugin_ParticleFX_d
+01:31:19: Installing plugin: ParticleFX
+01:31:19: Particle Emitter Type 'Point' registered
+01:31:19: Particle Emitter Type 'Box' registered
+01:31:19: Particle Emitter Type 'Ellipsoid' registered
+01:31:19: Particle Emitter Type 'Cylinder' registered
+01:31:19: Particle Emitter Type 'Ring' registered
+01:31:19: Particle Emitter Type 'HollowEllipsoid' registered
+01:31:19: Particle Affector Type 'LinearForce' registered
+01:31:19: Particle Affector Type 'ColourFader' registered
+01:31:19: Particle Affector Type 'ColourFader2' registered
+01:31:19: Particle Affector Type 'ColourImage' registered
+01:31:19: Particle Affector Type 'ColourInterpolator' registered
+01:31:19: Particle Affector Type 'Scaler' registered
+01:31:19: Particle Affector Type 'Rotator' registered
+01:31:19: Particle Affector Type 'DirectionRandomiser' registered
+01:31:19: Particle Affector Type 'DeflectorPlane' registered
+01:31:19: Plugin successfully installed
+01:31:19: Loading library Plugin_CgProgramManager_d
+01:31:19: Installing plugin: Cg Program Manager
+01:31:19: Plugin successfully installed
+01:31:19: Loading library Plugin_OctreeSceneManager_d
+01:31:19: Installing plugin: Octree & Terrain Scene Manager
+01:31:19: Plugin successfully installed
+01:31:19: Loading library Plugin_TheoraVideoSystem
+01:31:19: Registering Texture Controller: Type = ogg_video Name = TheoraVideoPlugin
+01:31:19: D3D9 : RenderSystem Option: Full Screen = false
+01:31:19: D3D9 : RenderSystem Option: Video Mode = 600 x 480 @ 32-bit colour
+01:31:19: CPU Identifier & Features
+01:31:19: -------------------------
+01:31:19:  *   CPU ID: GenuineIntel: Intel(R) Core(TM)2 Quad  CPU   Q8200  @ 2.33GHz
+01:31:19:  *      SSE: yes
+01:31:19:  *     SSE2: yes
+01:31:19:  *     SSE3: yes
+01:31:19:  *      MMX: yes
+01:31:19:  *   MMXEXT: yes
+01:31:19:  *    3DNOW: no
+01:31:19:  * 3DNOWEXT: no
+01:31:19:  *     CMOV: yes
+01:31:19:  *      TSC: yes
+01:31:19:  *      FPU: yes
+01:31:19:  *      PRO: yes
+01:31:19:  *       HT: no
+01:31:19: -------------------------
+01:31:19: D3D9 : Subsystem Initialising
+01:31:19: Registering ResourceManager for type Texture
+01:31:19: Registering ResourceManager for type GpuProgram
+01:31:19: D3D9RenderSystem::_createRenderWindow "Core", 600x480 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=true vsyncInterval=1 
+01:31:19: D3D9 : Created D3D9 Rendering Window 'Core' : 600x480, 32bpp
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT16_R
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT32_R
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+01:31:19: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+01:31:19: RenderSystem capabilities
+01:31:19: -------------------------
+01:31:19: RenderSystem Name: Direct3D9 Rendering Subsystem
+01:31:19: GPU Vendor: nvidia
+01:31:19: Device Name: Monitor-1-NVIDIA GeForce 9800 GTX/9800 GTX+
+01:31:19: Driver Version: 6.14.11.7779
+01:31:19:  * Fixed function pipeline: yes
+01:31:19:  * Hardware generation of mipmaps: yes
+01:31:19:  * Texture blending: yes
+01:31:19:  * Anisotropic texture filtering: yes
+01:31:19:  * Dot product texture operation: yes
+01:31:19:  * Cube mapping: yes
+01:31:19:  * Hardware stencil buffer: yes
+01:31:19:    - Stencil depth: 8
+01:31:19:    - Two sided stencil support: yes
+01:31:19:    - Wrap stencil values: yes
+01:31:19:  * Hardware vertex / index buffers: yes
+01:31:19:  * Vertex programs: yes
+01:31:19:  * Number of floating-point constants for vertex programs: 256
+01:31:19:  * Number of integer constants for vertex programs: 16
+01:31:19:  * Number of boolean constants for vertex programs: 16
+01:31:19:  * Fragment programs: yes
+01:31:19:  * Number of floating-point constants for fragment programs: 224
+01:31:19:  * Number of integer constants for fragment programs: 16
+01:31:19:  * Number of boolean constants for fragment programs: 16
+01:31:19:  * Geometry programs: no
+01:31:19:  * Number of floating-point constants for geometry programs: 0
+01:31:19:  * Number of integer constants for geometry programs: 0
+01:31:19:  * Number of boolean constants for geometry programs: 0
+01:31:19:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+01:31:19:  * Texture Compression: yes
+01:31:19:    - DXT: yes
+01:31:19:    - VTC: no
+01:31:19:    - PVRTC: no
+01:31:19:  * Scissor Rectangle: yes
+01:31:19:  * Hardware Occlusion Query: yes
+01:31:19:  * User clip planes: yes
+01:31:19:  * VET_UBYTE4 vertex element type: yes
+01:31:19:  * Infinite far plane projection: yes
+01:31:19:  * Hardware render-to-texture: yes
+01:31:19:  * Floating point textures: yes
+01:31:19:  * Non-power-of-two textures: yes
+01:31:19:  * Volume textures: yes
+01:31:19:  * Multiple Render Targets: 4
+01:31:19:    - With different bit depths: yes
+01:31:19:  * Point Sprites: yes
+01:31:19:  * Extended point parameters: yes
+01:31:19:  * Max Point Size: 10
+01:31:19:  * Vertex texture fetch: yes
+01:31:19:  * Number of world matrices: 0
+01:31:19:  * Number of texture units: 8
+01:31:19:  * Stencil buffer depth: 8
+01:31:19:  * Number of vertex blend matrices: 0
+01:31:19:    - Max vertex textures: 4
+01:31:19:    - Vertex textures shared: no
+01:31:19:  * Render to Vertex Buffer : no
+01:31:19:  * DirectX per stage constants: yes
+01:31:19: ***************************************
+01:31:19: *** D3D9 : Subsystem Initialised OK ***
+01:31:19: ***************************************
+01:31:19: DefaultWorkQueue('Root') initialising on thread main.
+01:31:19: Particle Renderer Type 'billboard' registered
+01:31:19: SceneManagerFactory for type 'OctreeSceneManager' registered.
+01:31:19: SceneManagerFactory for type 'TerrainSceneManager' registered.
+01:31:19: Parsing scripts for resource group Autodetect
+01:31:19: Finished parsing scripts for resource group Autodetect
+01:31:19: Parsing scripts for resource group General
+01:31:19: Parsing script Core.material
+01:31:19: Parsing script common.fontdef
+01:31:19: Parsing script LoadingPanel.overlay
+01:31:19: Texture: StatsBorderCenter.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+01:31:19: Texture: StatsBorder.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+01:31:19: Font BlueHighusing texture size 1024x512
+01:31:19: Info: Freetype returned null for character 127 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 128 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 129 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 130 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 131 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 132 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 133 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 134 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 135 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 136 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 137 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 138 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 139 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 140 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 141 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 142 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 143 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 144 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 145 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 146 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 147 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 148 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 149 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 150 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 151 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 152 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 153 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 154 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 155 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 156 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 157 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 158 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 159 in font BlueHigh
+01:31:19: Info: Freetype returned null for character 160 in font BlueHigh
+01:31:19: Texture: BlueHighTexture: Loading 1 faces(PF_BYTE_LA,1024x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,1024x512x1.
+01:31:19: Finished parsing scripts for resource group General
+01:31:19: Parsing scripts for resource group Internal
+01:31:19: Finished parsing scripts for resource group Internal
+01:31:19: TerrainSceneManager: Registered a new PageSource for type Heightmap
+01:31:19: *-*-* OgreAL Initialization
+01:31:19: MovableObjectFactory for type 'OgreAL_Sound' registered.
+01:31:19: MovableObjectFactory for type 'OgreAL_Listener' registered.
+01:31:19: *-*-* Creating OpenAL
+01:31:19: OpenAL Version: 1.1
+01:31:19: Available Devices
+01:31:19: -----------------
+01:31:20:  * Generic Hardware
+01:31:20:  * Generic Software
+01:31:20: Choosing: Generic Hardware
+01:31:20: Supported Formats
+01:31:20: -----------------
+01:31:20:  * AL_FORMAT_MONO16, Monophonic CSound
+01:31:20:  * AL_FORMAT_STEREO16, Stereo CSound
+01:31:20:  * AL_FORMAT_QUAD16, 4 Channel CSound
+01:31:20:  * AL_FORMAT_51CHN16, 5.1 Surround CSound
+01:31:20:  * AL_FORMAT_61CHN16, 6.1 Surround CSound
+01:31:20:  * AL_FORMAT_71CHN16, 7.1 Surround CSound
+01:31:20: EAX 2.0 Detected
+01:31:20: EFX Extension Found
+01:31:20: Creating resource group CLevelFlag
+01:31:20: Added resource location '.\Media.zip' of type 'Zip' to resource group 'CLevelFlag' with recursive option
+01:31:20: Initialising resource group CLevelFlag
+01:31:20: Parsing scripts for resource group CLevelFlag
+01:31:20: Parsing script BasicCG.program
+01:31:20: Parsing script plane.material
+01:31:20: Parsing script robot.material
+01:31:20: Parsing script RZR-002.material
+01:31:20: Parsing script Scenarios.material
+01:31:20: Finished parsing scripts for resource group CLevelFlag
+01:31:20: Texture: tiled_floor.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+01:31:20: Mesh: Loading robot.mesh.
+01:31:20: Skeleton: Loading robot.skeleton
+01:31:20: Texture: r2skin.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+01:31:20: *** Initializing OIS ***
+01:31:32: Unloading resource group CLevelFlag
+01:31:32: Finished unloading resource group CLevelFlag
+01:31:32: Removed resource location .\Media.zip
